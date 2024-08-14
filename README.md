@@ -1,6 +1,6 @@
 # fasthttp-swagger
 
-gin middleware to automatically generate RESTFUL API documentation with Swagger 2.0.
+[fasthttp](https://github.com/valyala/fasthttp) middleware to automatically generate RESTFUL API documentation with Swagger 2.0.
 
 [![Build Status](https://github.com/swaggo/fasthttp-swagger/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/features/actions)
 [![Codecov branch](https://img.shields.io/codecov/c/github/swaggo/fasthttp-swagger/master.svg)](https://codecov.io/gh/swaggo/fasthttp-swagger)
