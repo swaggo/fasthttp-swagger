@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"regexp"
 
-	"github.com/swaggo/fasthttp-swagger/swaggerFiles"
+	swaggerFiles "github.com/swaggo/files/v2"
 	"github.com/swaggo/swag"
 	"github.com/valyala/fasthttp"
 )
@@ -146,7 +146,7 @@ func CustomWrapHandler(config *Config) fasthttp.RequestHandler {
 			}
 			ctx.Response.SetBodyRaw([]byte(doc))
 		default:
-			fasthttp.ServeFS(ctx, &myfs{swaggerFiles.FS}, path)
+			fasthttp.ServeFS(ctx, swaggerFiles.FS, path)
 		}
 	}
 }
