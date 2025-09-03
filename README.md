@@ -95,7 +95,7 @@ package main
 
 import (
    _ "github.com/go-project-name/docs"
-   fasthttpSwagger "github.com/swaggo/fasthttp-swagger"
+   fastHttpSwagger "github.com/swaggo/fasthttp-swagger"
 )
 // @BasePath /api/v1
 
